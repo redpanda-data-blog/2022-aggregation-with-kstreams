@@ -1,0 +1,25 @@
+{
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "doc": "The id of the order.",
+      "name": "orderId",
+      "type": "int"
+    },
+    {
+      "doc": "Timestamp of the order.",
+      "name": "orderTime",
+      "type": "int"
+    },
+    {
+      "doc": "The address of the order.",
+      "name": "orderAddress",
+      "type": "string"
+    }
+  ],
+  "name": "sampleRecord",
+  "namespace": "com.mycorp.mynamespace",
+  "type": "record"
+}
+
+
