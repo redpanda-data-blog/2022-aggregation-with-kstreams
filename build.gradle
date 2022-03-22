@@ -19,7 +19,7 @@ version = "0.0.1"
 sourceCompatibility = "1.8"
 targetCompatibility = "1.8"
 application {
-  mainClassName = "com.kstreams.application.WordCountDemo"
+  mainClassName = "com.kstreams.application.WordCountApplication"
 }
 
 repositories {
