@@ -1,9 +1,0 @@
-{"namespace": "io.confluent.examples.streams.avro",
- "type": "record",
- "name": "PageViewStats",
- "fields": [
-     {"name": "user", "type": "string"},
-     {"name": "page", "type": "string"},
-     {"name": "region", "type": "string"}
- ]
-}
