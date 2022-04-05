@@ -185,6 +185,12 @@
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.jcustenborder.kafka/kafka-jackson -->
+        <dependency>
+            <groupId>com.github.jcustenborder.kafka</groupId>
+            <artifactId>kafka-jackson</artifactId>
+            <version>0.0.1.2</version>
+        </dependency>
         <!--
             This dependency is included to demonstrate the use of
             Confluent Monitoring Interceptors in conjunction with
@@ -255,8 +261,8 @@
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>${kafka.version}</version>
-            <classifier>test</classifier>
-            <scope>test</scope>
+            <!--<classifier>test</classifier>
+            <scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>org.apache.kafka</groupId>
